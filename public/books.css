@@ -1,0 +1,36 @@
+form {
+  background: #e7e7e7;
+  padding: 10px;
+}
+
+input[type=text] {
+  padding: 6px;
+}
+
+input[type=submit] {
+  padding: 6px;
+  margin-top: 10px;
+  background: aquamarine;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 6px 0;
+}
+
+.delete_link {
+  display: inline-block;
+  background: pink;
+  padding: 2px 5px;
+  border: 1px solid grey;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.delete_link:hover {
+  background: red;
+  font-weight: bold;
+}
