@@ -1,0 +1,24 @@
+{
+  "name": "mongodb-books",
+  "version": "1.0.0",
+  "description": "To import the books data into MongoDB:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSCRIPT300-Spring2016/MongoDB-books.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSCRIPT300-Spring2016/MongoDB-books/issues"
+  },
+  "homepage": "https://github.com/JSCRIPT300-Spring2016/MongoDB-books#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.16"
+  }
+}
