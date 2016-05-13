@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 
-var urlEncoded = bodyParser.urlencoded({ extend: false });
+var urlEncoded = bodyParser.urlencoded({ extended: false });
 
 var Book = require('../models/bookModel');
 
